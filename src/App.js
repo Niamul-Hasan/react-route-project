@@ -7,6 +7,7 @@ import About from './Components/About/About';
 import Users from './Components/Users/Users';
 import UserDetail from './Components/UserDetail/UserDetail';
 import NotFound from './Components/NotFound/NotFound';
+import Dashboard from './Components/Dashboard/Dashboard';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/users" element={<Users />}></Route>
         <Route path="/users/:userId" element={<UserDetail />}></Route>
+        <Route path="/dashboard" element={<Dashboard />}></Route>
         <Route path="*" element={<NotFound />}></Route>
       </Routes>
 
