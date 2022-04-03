@@ -1,6 +1,8 @@
 ## Now its my turn
-*very easy to write
-*Simple outlook
+- First item
+- Second item
+- Third item
+- Fourth item
 
 # Live site link
 <https://vibrant-chandrasekhar-fd8cef.netlify.app/>
